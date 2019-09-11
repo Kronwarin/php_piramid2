@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 <?php include ("ww.php");?>
-<?php
+<center><?php
 for($namwarn=0;$namwarn<=4;$namwarn++) {
 	echo($namwarn+1);
 	echo("*");
@@ -14,5 +14,7 @@ for($namwarn=0;$namwarn<=4;$namwarn++) {
 	echo "<br/>";
 }
 ?>
-<br><a href="index.php" >Back</a></br>
-<?php include("footer1.php"); ?>
+
+<br><a href="pyramid31.36.php" >Back</a></br>
+</center>
+<?php include("footer.php"); ?>
